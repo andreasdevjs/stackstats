@@ -1,9 +1,5 @@
-# Node-React-Startup-Structure
-A file structure for developing a Node and React app.
-
-The [Client Folder](/client) contains a basic create-react-app starter file.
-
-The [Server Folder](server) contains a basic MVC folder structure for creating an api using Node and Express.
+# Stacksats Platform | Stack sats by doing micro jobs | Circular Bitcoin Economy
+![alt text](https://i.ibb.co/74nGpLd/Screenshot-2021-12-16-at-19-22-55.png "Stacksats Platform")
 
 ## Commands that can be run from this root folder:
 
