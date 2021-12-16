@@ -1,6 +1,6 @@
 module.exports = {
     getMain: (req, res) => {
-        res.send('Welcome to API v1.');
+      res.send('Welcome to API v1.');
     },
     getJson: (req, res) => {
       const randArr = ['String 1', 'String 2', 'String 3'];
