@@ -76,3 +76,31 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+/* Custom Fonts */
+@font-face {
+  font-family: "GilroyRegular";
+  src: local("GilroyRegular"),
+    url("./Assets/Fonts/Gilroy/Gilroy-Regular.otf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GilroySemiBold";
+  src: local("GilroySemiBold"),
+    url("./Assets/Fonts/Gilroy/Gilroy-Semibold.otf") format("truetype");
+  font-weight: bold;
+}
+
+.gilroy-regular {
+  font-family: "GilroyRegular";
+}
+
+.gilroy-semi-bold {
+  font-family: "GilroySemiBold";
+}
+
+.heading-logo {
+  font-size: 25px;
+  letter-spacing: -1px;
+}
