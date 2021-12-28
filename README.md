@@ -1,4 +1,4 @@
-# Stacksats Platform | Stack sats by doing micro jobs | Circular Bitcoin Economy
+# Stacksats Platform
 ![alt text](https://i.ibb.co/74nGpLd/Screenshot-2021-12-16-at-19-22-55.png "Stacksats Platform")
 
 ## Commands that can be run from this root folder:

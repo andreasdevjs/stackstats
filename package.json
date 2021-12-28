@@ -1,7 +1,7 @@
 {
-    "name": "node_react_startup_structure",
+    "name": "stacksats",
     "version": "1.0.0",
-    "description": "The Node React Startup Structure",
+    "description": "Stacksats Platform Project",
     "main": "server/app.js",
     "scripts": {
         "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -12,11 +12,7 @@
         "install": "cd client && npm install && cd ../server && npm install",
         "build": "cd client && npm run build"
     },
-    "author": "Anthony Rivas",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/anthonyrivas/Node-React-Startup-Structure/issues"
-    },
+    "author": "Andreas Rutjens",
     "devDependencies": {
         "concurrently": "^4.1.2"
     },

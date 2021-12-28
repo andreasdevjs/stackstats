@@ -1,14 +1,13 @@
 {
-    "name": "node_react_startup_structure_server",
+    "name": "server",
     "version": "1.0.0",
-    "description": "The server for the Node React Startup Structure",
+    "description": "The server for the Stacksats Platform",
     "main": "app.js",
     "scripts": {
         "start": "node app.js",
         "dev": "nodemon app.js"
     },
-    "author": "Anthony Rivas",
-    "license": "MIT",
+    "author": "Andreas Rutjens",
     "devDependencies": {
         "nodemon": "^1.19.4"
     },
