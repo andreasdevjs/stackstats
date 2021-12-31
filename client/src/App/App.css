@@ -92,12 +92,23 @@ select {
   font-weight: bold;
 }
 
+@font-face {
+  font-family: "GilroyBold";
+  src: local("GilroyBold"),
+    url("./Assets/Fonts/Gilroy/Gilroy-Bold.otf") format("truetype");
+  font-weight: bold;
+}
+
 .gilroy-regular {
   font-family: "GilroyRegular";
 }
 
 .gilroy-semi-bold {
   font-family: "GilroySemiBold";
+}
+
+.gilroy-bold {
+  font-family: "GilroyBold";
 }
 
 .heading-logo {

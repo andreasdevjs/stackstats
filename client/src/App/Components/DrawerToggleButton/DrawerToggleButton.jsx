@@ -1,9 +1,12 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import { openMainMenu } from '../../Redux/Actions/menu.actions';
+
 import './DrawerToggleButton.css';
 
-const DrawerToggleButton = () => {
+const DrawerToggleButton = ({openMainMenu}) => {
   return (
-    <button className="menubutton" onClick={()=> console.log('menu')}>
+    <button className="menubutton" onClick={openMainMenu}>
       <div className="menubutton__line"></div>
       <div className="menubutton__line"></div>
       <div className="menubutton__line"></div>
@@ -11,4 +14,4 @@ const DrawerToggleButton = () => {
   );
 }
 
-export default DrawerToggleButton;
+export default connect(null, { openMainMenu })(DrawerToggleButton);
