@@ -3,9 +3,9 @@ import { Box, Heading, Text  } from '@chakra-ui/react';
 
 function HowItWorks() {
   return (
-    <Box p={8}>
+    <Box p={8} bg="rgb(44, 45, 48)">
 
-      <Heading as='h2' color='rgb(44, 45, 48)' fontFamily='GilroyBold' fontSize='28px' textAlign='center'>
+      <Heading as='h2' color='white' fontFamily='GilroyBold' fontSize='28px' textAlign='center'>
         How it works
       </Heading>
 
@@ -17,7 +17,7 @@ function HowItWorks() {
           <Text fontSize='18px' fontWeight='bold' color='white'>
             STEP 1
           </Text>
-          <Text fontSize='16px' color='white' pt={2} lineHeight={1.3}>
+          <Text fontSize='16px' color='white' pt={2} lineHeight={1.3} opacity={0.8}>
             Register for free with an email and a nickname in less than 30 seconds
           </Text>
         </Box>
@@ -26,8 +26,8 @@ function HowItWorks() {
           <Text fontSize='18px' fontWeight='bold' color='white'>
             STEP 2
           </Text>
-          <Text fontSize='16px' color='white' pt={2} lineHeight={1.3}>
-            Publish an ad where you offer or demand a service*
+          <Text fontSize='16px' color='white' pt={2} lineHeight={1.3} opacity={0.8}>
+            Publish an ad where you offer or demand a product or service*
           </Text>
         </Box>
 
@@ -35,14 +35,14 @@ function HowItWorks() {
           <Text fontSize='18px' fontWeight='bold' color='white'>
             STEP 3
           </Text>
-          <Text fontSize='16px' color='white' pt={2} lineHeight={1.3}>
-            Pay or receive satoshis for the service directly peer-to-peer without KYC
+          <Text fontSize='16px' color='white' pt={2} lineHeight={1.3} opacity={0.8}>
+            Pay or receive satoshis for the service directly peer-to-peer without intermediaries
           </Text>
         </Box>
 
         <Box>
-          <Text fontSize='12px' color='rgb(53, 54, 58)' textAlign='center' pt={5} lineHeight={1.3}>
-            *Posting an ad costs 100 sats as anti-spam paywall
+          <Text fontSize='12px' color='white' textAlign='center' pt={5} lineHeight={1.3}>
+            *Posting an ad costs 1000 sats as anti-spam paywall
           </Text>
         </Box>
 

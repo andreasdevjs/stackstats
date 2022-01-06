@@ -8,6 +8,7 @@ import store from "./Redux/store";
 
 // Pages
 import Home from './Pages/Home/Home';
+import FAQ from './Pages/FAQ/FAQ';
 
 // Fonts
 import './Assets/Fonts/Gilroy/Gilroy-Regular.otf';
@@ -24,6 +25,7 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Home />} /> 
+            <Route path="/faq" element={<FAQ />} /> 
           </Routes>
         </Router>
       </Provider>
